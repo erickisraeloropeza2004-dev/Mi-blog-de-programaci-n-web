@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog</title>
+
+    <link rel="stylesheet" href="estilos.css">
+    <script src="lib.js" defer></script>
+</head>
+
+<body>
+ 
+    <p id ="fechaActual">Cargando Fecha ...</p>
+    <p id ="relojActual">Cargando Reloj ...</p>
+    
+    <h1>Título 1</h1>
+    <h2 id="mensajeBienvenida">Aqui se mostrara el resultado</h2>
+
+    <h2>Título 2</h2>
+
+    <h3>Título 3</h3>
+
+    <h4>Título 4</h4>
+
+    <hr>
+
+    <ul id="ListaTemas"></ul>
+    
+    <label>
+        <input id="checkboxMostrar" type="checkbox" checked>
+        mostrar mensaje
+    </label>
+    <p id="mensajeOculto" class ="mensajeVisible">Mensaje oculto o visible </p>
+    
+    <p>
+        Este es un párrafo con bastante texto,<br>
+        puede tener más de dos líneas. lore
+    </p>
+
+    <hr>
+    
+    <img src="Cristiano.jpg" alt="Cristiano">
+
+    <br><br>
+
+        <hr>
+    
+    <a href="https://www.tecnm.mx" target="_blank">
+        IR A LA PAGINA DEL TEC
+    </a>
+
+    <p>
+        En esta actividad se muestran diferentes estilos de texto:
+        una palabra <b>en negritas</b>,
+        una idea <strong>importante</strong>,
+        un término en <i>cursiva</i>,
+        una frase <em>enfatizada</em>,
+        un dato <mark>marcado</mark>,
+        una nota <small>pequeña</small>,
+        una palabra <del>eliminada</del>,
+        una palabra <ins>insertada</ins>,
+        una fórmula con H<sub>2</sub>O
+        y una potencia como x<sup>2</sup>.
+    </p>
+
+    <hr>
+    
+    <ul>
+        <li>Primer Elemento</li>
+        <li>Segundo Elemento</li>
+        <li>Tercer Elemento</li>
+        <li>Cuarto Elemento</li>
+    </ul>
+
+    <ol>
+        <li>Primer Elemento</li>
+        <li>Segundo Elemento</li>
+        <li>Tercer Elemento</li>
+        <li>Cuarto Elemento</li>
+    </ol>
+
+</body>
+
+<!-- Lista de definición -->
+
+<div style="background-color: aqua; margin:20px;">
+	<dl>
+    		<dt>ISC</dt>
+    		<dd>ING EN SISTEMAS COMPUTACIONALES</dd>
+
+    		<dt>IGE</dt>
+    		<dd>ING EN GESTIÓN EMPRESARIAL</dd>
+	</dl>
+</div>
+
+	<table>
+		<tr>
+			<th>Nombre</th>
+			<th>Num Control</th>
+			<th>Telefono</th>
+			<th>Correo</th>
+		</tr>
+	
+		<tr style="background-color: red;">
+			<td>Erick Oropeza</td>
+			<td>231080077</td>
+			<td>5533832952</td>
+			<td>l231080077@minatitlan.tecnm.mx</td>
+		</tr>
+
+		<tr>
+			<td>Lucia Perez</td>
+			<td>2455819</td>
+			<td>9212836405</td>
+			<td>l23124558197@minatitlan.tecnm.mx</td>
+		</tr>
+		<tr>
+			<td>Jonathan Oropeza</td>
+			<td>2231088479</td>
+			<td>556895521</td>
+			<td>l231088479@minatitlan.tecnm.mx</td>
+		</tr>
+
+	</table>
+<form action="">
+	<label> Nombre </label>
+	<input type="text">
+
+<br>
+
+	<label>Correo</label>
+	<input type="email">
+<br>
+	<label>Contraseña</label>
+	<input type="password">
+<br>
+	<label>Fechas</label> 
+	<input type="date">
+	<input type="time">
+	<input type="datetime-local">
+<br>
+	<label>Valores</label>
+	<input type="number">
+	<input type="radio">
+	<input type="checkbox">
+	<input type="range">
+	<input type="color">
+<br>
+	<label>Archivos e Imagenes</label>
+	<input type="file">
+	<input type="image">
+
+	<input type="button" value="Enviar">	
+        
+       </form>
